@@ -1,2 +1,4 @@
 rootProject.name = 'alpha'
+include 'common'
+include 'rest'
 
