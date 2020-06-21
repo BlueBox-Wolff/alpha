@@ -1,0 +1,41 @@
+plugins {
+    id 'java'
+    id 'idea'
+    id 'java-gradle-plugin'
+}
+
+defaultTasks 'clean', 'build'
+
+def major = 1
+def minor = 0
+def patch = 0
+
+group 'de.bluebox.wolff'
+version "${major}.${minor}.${patch}"
+
+repositories() {
+    mavenCentral()
+    jcenter()
+}
+
+dependencies {
+    testImplementation 'junit:junit:4.13'
+}
+
+sourceCompatibility = 8
+targetCompatibility = 8
+
+compileJava {
+    options.encoding = 'UTF-8'
+}
+
+compileTestJava {
+    options.encoding = 'UTF-8'
+}
+
+task sourcesJar(type: Jar) {
+    from sourceSets.main.allJava
+    archiveClassifier.set('sources')
+}
+
+idea.module.inheritOutputDirs = true
