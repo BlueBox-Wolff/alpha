@@ -1,0 +1,3 @@
+jar {
+  archiveFileName.set("alpha-rest.jar")
+}
