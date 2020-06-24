@@ -23,6 +23,12 @@
  *
  */
 
-jar {
-  archiveFileName.set("alpha-common.jar")
+package de.bluebox.wolff.alpha;
+
+public enum HTTPMapping {
+  GET,
+  POST,
+  PUT,
+  PATCH,
+  DELETE;
 }
