@@ -1,6 +1,10 @@
 defaultTasks 'clean', 'build'
 
 allprojects {
+  apply plugin: 'java'
+  apply plugin: 'idea'
+  apply plugin: 'java-gradle-plugin'
+
   def major = 1
   def minor = 0
   def patch = 0
@@ -15,10 +19,6 @@ allprojects {
 }
 
 subprojects {
-  apply plugin: 'java'
-  apply plugin: 'idea'
-  apply plugin: 'java-gradle-plugin'
-
   dependencies {
     testImplementation 'junit:junit:4.13'
   }

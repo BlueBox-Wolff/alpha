@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.27">
+<file name="B:\Development\BlueBox-Wolff\alpha\common\src\main\java\de\bluebox\wolff\alpha\common\HTTPController.java">
+<error line="11" severity="warning" message="Die Abkürzung im Bezeichner &apos;HTTPController&apos; darf höchstens aus &apos;2&apos; Großbuchstaben bestehen." source="com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheck"/>
+</file>
+<file name="B:\Development\BlueBox-Wolff\alpha\common\src\main\java\de\bluebox\wolff\alpha\common\HTTPMapping.java">
+<error line="3" severity="warning" message="Die Abkürzung im Bezeichner &apos;HTTPMapping&apos; darf höchstens aus &apos;2&apos; Großbuchstaben bestehen." source="com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheck"/>
+</file>
+<file name="B:\Development\BlueBox-Wolff\alpha\common\src\main\java\de\bluebox\wolff\alpha\common\Mapping.java">
+<error line="12" column="3" severity="warning" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="14" column="3" severity="warning" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+</file>
+</checkstyle>
