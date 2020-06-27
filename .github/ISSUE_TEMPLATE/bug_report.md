@@ -1,38 +1,13 @@
----
-name: Bug report
-about: Create a report to help us improve
-title: ''
-labels: ''
-assignees: ''
+BlueBox-Wolff (alpha) Issue Template for bugs
+==========================
+
+- Please ensure that you have verified that the bug you are reporting exists on the current version before reporting.
+- It is also appreciated if you can verify the presence or absence of the bug on the current alpha release version.
+- Make sure that information is as detailed as possible so that others can reproduce your issue even if they are unfamiliar with the concepts involved.
+
+Please fill out the appropriate checkboxes below confirming the testing you have done:
 
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
-
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
-
-**Expected behavior**
-A clear and concise description of what you expected to happen.
-
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
-
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
-
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
-
-**Additional context**
-Add any other context about the problem here.
+- [ ] Bug exists on current alpha version
+- [ ] Bug does not exist on current alpha version
