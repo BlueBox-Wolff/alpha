@@ -1,3 +1,12 @@
+---
+name: Bug report
+about: Report a security vulnerability
+title: ''
+labels: ''
+assignees: ''
+
+---
+
 BlueBox-Wolff (alpha) Issue Template for bugs
 ==========================
 
